@@ -69,9 +69,72 @@
   font-weight: normal;
 }
 
-.top-content ul li img {
-  stroke: red;
-  fill: red;
-  color: red;
-  /* background-color: purple; */
+.explore-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.explore-content .explore-content-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.explore-content .explore-content-item h3 {
+  margin-bottom: 20px;
+
+  font-size: 20px;
+}
+
+.explore-content .explore-content-item p {
+  width: 340px;
+
+  margin-bottom: 18px;
+  line-break: break-word;
+  line-height: 24px;
+
+  color: #000000a1;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.explore-content .explore-content-item:last-of-type p {
+  width: 100%;
+}
+
+.explore-content .explore-content-item > img {
+  width: 600px;
+  height: 300px;
+
+  margin-bottom: 24px;
+
+  object-fit: cover;
+}
+
+.explore-content .explore-content-item a {
+  all: unset;
+  width: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-content .explore-content-item a .icon {
+  width: 18px;
+  height: 18px;
+
+  stroke-width: 2;
+
+  font-weight: bold;
+}
+
+.explore-content .explore-content-item a span {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
 }
